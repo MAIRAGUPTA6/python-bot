@@ -1,1 +1,1 @@
-worker: python vaccine_on_pincode.py
+worker: main.py
