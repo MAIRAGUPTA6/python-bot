@@ -27,7 +27,7 @@ def bin_checker(bin_number):
 if __name__ == "__main__":
     print("Example:\n Visa: 4\n Mastercard: 5 \n Amex: 3 \n Discovery: 6")
 
-    bin_frist_digit = "5"
+    bin_frist_digit = "4"
     
     
     
