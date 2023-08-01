@@ -27,7 +27,7 @@ def bin_checker(bin_number):
 if __name__ == "__main__":
     print("Example:\n Visa: 4\n Mastercard: 5 \n Amex: 3 \n Discovery: 6")
 
-    bin_frist_digit = "524"
+    bin_frist_digit = "4,5"
     
     
     
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     for _ in range(2000000000000):
         time.sleep(4) 
-        bin = str(random.randint(111, 999))
+        bin = str(random.randint(11111, 99999))
         bin_number = bin_frist_digit+bin
         result, country_name, bank_name = bin_checker(bin_number)
         p = f"{result}: {bin_number} - Country: {country_name} - Bank: {bank_name}"
